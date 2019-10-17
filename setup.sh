@@ -26,3 +26,6 @@ pip install confluent-kafka[avro]
 
 echo "Installing dependencies"
 pip install --no-binary :all: confluent-kafka
+
+echo "Installing basescript"
+pip install basescript
