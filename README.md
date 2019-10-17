@@ -43,12 +43,12 @@ In simple terms Apache Kafka is a data streaming platform to handle continous fl
 
 ### Producer
 
-```python
+```
 python producer.py run --server <server> --port <port> --topic <topic> --message "message"
 ```
 
 ### Consumer
 
-```python
+```
 python consumer.py run --server <server> --port <port> --topic <topic> --group-id <group_id> 
 ```
