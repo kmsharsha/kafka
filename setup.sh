@@ -17,15 +17,3 @@ confluent start
 
 echo "Status of Confluent"
 confluent status
-
-echo "Isntalling confluent kafka"
-pip install confluent-kafka
-
-echo "Installing kafka[avro]"
-pip install confluent-kafka[avro]
-
-echo "Installing dependencies"
-pip install --no-binary :all: confluent-kafka
-
-echo "Installing basescript"
-pip install basescript
