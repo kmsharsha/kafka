@@ -1,4 +1,4 @@
-# kafka
+# kafka - v0.3
 
 In simple terms Apache Kafka is a data streaming platform to handle continous flow of data in real time with fault tolerence.
 
@@ -35,20 +35,8 @@ In simple terms Apache Kafka is a data streaming platform to handle continous fl
 
 ## Installation:
 
+Install Confluent Kafka
+
 ```
 ./setup.sh
-```
-
-## Example Run:
-
-### Producer
-
-```
-python producer.py run --server <server> --port <port> --topic <topic> --message "message"
-```
-
-### Consumer
-
-```
-python consumer.py run --server <server> --port <port> --topic <topic> --group-id <group_id> 
 ```

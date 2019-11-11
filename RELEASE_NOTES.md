@@ -1,7 +1,10 @@
 # RELEASE NOTES
 
-### 0.1
+### v0.1
 - Add `README.md` and `setup.sh`
 
-### 0.2
+### v0.2
 - Add `producer.py`, `consumer.py` and `RELEASE_NOTES.md`
+
+### v0.3
+- Add golang implementation for Kafka
